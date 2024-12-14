@@ -1,0 +1,36 @@
+.about_list {
+    display: flex;
+    align-items: center;
+}
+
+.about_item {
+    position: relative;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.about_title {
+    margin-bottom: 50px;
+}
+
+.about_text {
+    position: absolute;
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background-color: var(--title-bg-color);
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
